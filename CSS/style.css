@@ -1,0 +1,52 @@
+html{
+	height: 100%
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+	text-decoration: overline;
+}
+.navbar-light .navbar-nav .active .nav-link {
+    color: White;
+    font-weight: 900px;
+   	text-shadow: 0px 2px 2px #000000;
+   	text-decoration: overline;
+}
+.fixed-top{
+	padding-right: 8%;
+	padding-left: 8%;
+}
+.gallery-text{
+	text-align: center;
+	text-shadow: 0px 2px 2px #000000;
+}
+.row{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	width: auto;
+	line-height: 4;
+	text-align: justify-all;
+}
+.row p{
+	line-height: 1.5;
+}
+.fa-address-card{
+	transform: scale(3);
+}
+hr{
+	width: 250px;
+}
+.jumbotron{
+  margin-top: 10%;
+}
+h1{
+    text-shadow: 0px 2px 2px #000000;
+    text-align:center; 
+    margin-bottom: 2%;
+}

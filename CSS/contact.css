@@ -1,0 +1,32 @@
+html{
+	height: 100%
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+	text-decoration: overline;
+}
+.navbar-light .navbar-nav .active .nav-link {
+    color: White;
+    font-weight: 900px;
+   	text-shadow: 0px 2px 2px #000000;
+   	text-decoration: overline;
+}
+
+.fixed-top{
+	padding-right: 8%;
+	padding-left: 8%;
+}
+.form{
+  margin-top: 8%;
+}
+h1{
+    text-shadow: 0px 2px 2px #000000;
+    text-align:center; 
+    margin-bottom: 2%;
+}
