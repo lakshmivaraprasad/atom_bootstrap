@@ -22,7 +22,7 @@ html{
 	padding-left: 8%;
 }
 .login-form{
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 .login-avtar{
   width: 50%;
@@ -36,4 +36,11 @@ html{
 }
 .h3{
   text-shadow: 0px 2px 1px #000000;
+}
+.form-label-group .row{
+  margin: auto;
+  padding-top: 1.5rem;
+}
+.signup{
+  text-align: left;
 }
