@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap 4.5 Login</title>
+	<title>Bootstrap 4.5 Account Recovery</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/eefc72ae63.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="CSS/login.css">
+	<link rel="stylesheet" type="text/css" href="CSS/forgot.css">
 </head>
 <body>
 	<!-- Navigation Bar -->
@@ -29,53 +29,32 @@
 			    </ul>
 			   <ul class="navbar-nav ml-auto">
 			   		<li class="nav-item"><a href="signup.html" class="nav-link">SignUp <i class="fas fa-user-plus"></i></a></li>
-			   		<li class="nav-item active"><a href="login.html" class="nav-link">Login <i class="fas fa-sign-in-alt"></i></a></li>
+			   		<li class="nav-item"><a href="login.html" class="nav-link">Login <i class="fas fa-sign-in-alt"></i></a></li>
 			   </ul>
 		  </div>
 		</nav>
 	</div>
 
-	<!-- login Form -->
-	<div class="container login-form">
-		<form class="form-signin">
+	<!-- Recovery Labels -->
+	<div class="container recovery-form">
+		<form class="form-recovery">
 			<div class="text-center mb-4">
-			<img src="avtar.png" class="login-avtar">
-			<h1 class="h3 mb-3 font-weight-normal">Login</h1>
+			<img src="pwd.png" class="recovey-avtar">
+			<h1 class="h3 mb-3 font-weight-normal">Account Recovery</h1>
 			</div>
 
-			<div class="form-label-group">
-			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-			<label for="inputEmail"></label>
+			<div class="form-label-group ">
+			<input type="tel" id="tel-input" class="form-control" placeholder="Mobile Number" maxlength="10" required="required" pattern="^\d{10}" >
+			<label for="tel-input" class="col-2 col-form-label"></label>
 			</div>
 
-			<div class="form-label-group">
-			<input type="password" id="inputPassword" class="form-control" placeholder= "Password" required="">
-			<label for="inputPassword"></label>
-			</div>
-
-			<div class="checkbox mb-3">
-			<label><input type="checkbox" value="remember-me"> Remember me</label>
-			</div>
-
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Login <i class="fas fa-arrow-circle-right"></i></button>
-
-			<div class="form-label-group">
-				<div class="row">
-					<p class="col-md-6">Donot have account?</p>
-					<a href="signup.html" class="col-md-6 px-lg-5">Signup <i class="fas fa-user-plus"></i></a>
-				</div>
-			</div>
-
-			<div class="form-label-group">
-				<div class="row">
-					<a href="forgot.html" class="col-md-6">Forgot Password </a>
-				</div>
-			</div>
-
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Send OTP <i class="fas fa-arrow-circle-right"></i></button>
 		</form>
 	</div>
+
 	<!-- Footer Card -->
-	<div class="card-footer text-muted text-center ">Stay <i class="far fa-handshake"></i> Connected</div>
+	<div class="card-footer text-muted text-center fixed-bottom">Stay <i class="far fa-handshake"></i> Connected</div>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

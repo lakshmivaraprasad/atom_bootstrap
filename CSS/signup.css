@@ -41,3 +41,6 @@ form{
 .form-footer{
   margin: 2% auto;
 }
+.form-lable-group .row{
+  border:1px solid red;
+}
